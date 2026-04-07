@@ -1,0 +1,24 @@
+[33mcommit 115f9c2243f06c6a3facdb63c39491e996c40376[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 7628e74 45e9bc2
+Author: Justus Eaglesmith <justuseaglesmith@gmail.com>
+Date:   Tue Mar 31 07:50:18 2026 -0700
+
+    Merge branch 'main' of https://github.com/JustusEaglesmith20/AI-System-Evaluation-Tool
+
+[33mcommit 7628e745a2d9b092fde546089853bc3f7ded9ca3[m
+Author: Justus Eaglesmith <justuseaglesmith@gmail.com>
+Date:   Tue Mar 31 07:50:05 2026 -0700
+
+    Add initial implementation of evaluation tool with configuration and test cases
+
+[33mcommit 45e9bc21e315ed44932032065a428438ea6554cd[m
+Author: Justus Eaglesmith <132398284+JustusEaglesmith20@users.noreply.github.com>
+Date:   Fri Mar 13 11:26:02 2026 -0700
+
+    Add files via upload
+
+[33mcommit 7f07a54100c3c2b5f3de34b3ac28812b8602383e[m
+Author: Justus Eaglesmith <132398284+JustusEaglesmith20@users.noreply.github.com>
+Date:   Fri Mar 13 09:48:53 2026 -0700
+
+    Initial commit

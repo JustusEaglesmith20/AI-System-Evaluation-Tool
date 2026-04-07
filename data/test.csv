@@ -1,4 +1,4 @@
-input,expected_output,category,difficulty,tags,grader_type,notes
-Who wrote To Kill a Mockingbird?,Harper Lee,factual_recall,easy,"literature,deterministic",exact_contains,Tests basic literary factual retrieval — patron asking about a book author
-What year was the Dewey Decimal System created?,1876,factual_recall,easy,"library_science,deterministic",exact_contains,Tests domain-specific library knowledge
-What is 15% of 230?,34.5,arithmetic,easy,"math,deterministic",exact_contains,Tests basic math help — common patron request for percentage calculations
+input,expected_output,target_llm_output,category,difficulty,tags,grader_type,notes
+Who wrote To Kill a Mockingbird?,Harper Lee,,factual_recall,easy,"literature,deterministic",exact_contains,Tests basic literary factual retrieval — patron asking about a book author
+What year was the Dewey Decimal System created?,1876,,factual_recall,easy,"library_science,deterministic",exact_contains,Tests domain-specific library knowledge
+What is 15% of 230?,34.5,,arithmetic,easy,"math,deterministic",exact_contains,Tests basic math help — common patron request for percentage calculations
