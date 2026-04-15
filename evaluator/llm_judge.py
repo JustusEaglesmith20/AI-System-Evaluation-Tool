@@ -39,7 +39,6 @@ def llm_judge_evaluator(eval_output_data_path: str):
     """
     judgeclient = OpenAI()
     
-    
     results = pd.read_csv(eval_output_data_path)
 
     def _evaluate_target_llm_qs(q):
@@ -51,7 +50,7 @@ def llm_judge_evaluator(eval_output_data_path: str):
         
 
     eval = []
-    for q in results['target_llm_response']:
+    for q in results['target_llm_output']:
         resp = _evaluate_target_llm_qs(q)
         eval.append(resp)
 
@@ -70,7 +69,6 @@ if __name__ == "__main__":
     config = Config(input_path)
     config.setup_eval_config()
 
-    # TODO: Need to set up a data model for the required format of the CSV
     try:
         test_df = send_inputs_to_LLM_and_update_df(eval_input_data_path=input_path)
     except Exception as e:
@@ -80,4 +78,5 @@ if __name__ == "__main__":
     print (f"Results stored & writted to {output_path}")
 
     # Now I just need to have the second llm evaluate the responses.
-    llm_judge_evaluator()
+    df_w_eval = llm_judge_evaluator(output_path)
+    df_w_eval.to_csv(output_path)

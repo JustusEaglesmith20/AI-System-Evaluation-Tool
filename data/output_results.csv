@@ -1,4 +1,4 @@
-,input,expected_output,target_llm_output,category,difficulty,tags,grader_type,notes
-0,Who wrote To Kill a Mockingbird?,Harper Lee,**To Kill a Mockingbird** was written by **Harper Lee**.,factual_recall,easy,"literature,deterministic",exact_contains,Tests basic literary factual retrieval — patron asking about a book author
-1,What year was the Dewey Decimal System created?,1876,The Dewey Decimal System was created in **1876**.,factual_recall,easy,"library_science,deterministic",exact_contains,Tests domain-specific library knowledge
-2,What is 15% of 230?,34.5,15% of 230 is **34.5**.,arithmetic,easy,"math,deterministic",exact_contains,Tests basic math help — common patron request for percentage calculations
+,Unnamed: 0,input,expected_output,target_llm_output,category,difficulty,tags,grader_type,notes,evaluation
+0,0,Who wrote To Kill a Mockingbird?,Harper Lee,**To Kill a Mockingbird** was written by **Harper Lee**.,factual_recall,easy,"literature,deterministic",exact_contains,Tests basic literary factual retrieval — patron asking about a book author,Yes — *To Kill a Mockingbird* was written by Harper Lee.
+1,1,What year was the Dewey Decimal System created?,1876,The Dewey Decimal System was created in **1876** by **Melvil Dewey**.,factual_recall,easy,"library_science,deterministic",exact_contains,Tests domain-specific library knowledge,Yes — the Dewey Decimal System was introduced in **1876** by **Melvil Dewey**.
+2,2,What is 15% of 230?,34.5,15% of 230 is **34.5**.,arithmetic,easy,"math,deterministic",exact_contains,Tests basic math help — common patron request for percentage calculations,Correct — **15% of 230 = 34.5**.
